@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nemorphism calci</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+<body>
+    <div class="container">
+           <svg viewBox="0 0">
+                 <symbol id="s-text">
+                  <text text-anchor="middle" x="50%" y="50%">CALCULATOR</text>
+                </symbol>
+    
+                <g class = "g-ants">
+                 <use xlink:href="#s-text" class="text-copy"></use>
+                 <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+                  <use xlink:href="#s-text" class="text-copy"></use>
+              </g>
+            </svg>
+
+            <div class="screen">
+                <input id="display" type="text" placeholder="0">
+            </div>
+
+            <div class="btns">
+                <div class="row">
+                    <input id="space" type="button" value="⌫"  onclick="backspace()">
+                    <input type="button" value="!" onclick="display.value += '!'">
+                    <input type="button" value="(" onclick="display.value += '('">
+                    <input type="button" value=")" onclick="display.value += ')'">
+                    <input type="button" value="%" onclick="display.value += '%'">
+                    <input  id="ac" type="button" value="C"  onclick="display.value = ''">    
+                </div>
+
+                <div class="row">
+                    <input type="button" value="sin(" onclick="display.value += 'sin('">
+                    <input type="button" value="pi"  onclick="pi()">
+                    <input type="button" value="7" onclick="display.value += '7'">
+                    <input type="button" value="8" onclick="display.value += '8'">
+                    <input type="button" value="9" onclick="display.value += '9'">
+                    <input type="button" value="/"  onclick="display.value += '/'">      
+                </div>
+
+                <div class="row">
+                    <input type="button" value="cos("  onclick="display.value += 'cos('">
+                    <input type="button" value="log("   onclick="base10Log()">
+                    <input type="button" value="4"   onclick="display.value += '4'">
+                    <input type="button" value="5"  onclick="display.value += '5'">
+                    <input type="button" value="6"  onclick="display.value += '6'">
+                    <input type="button" value="x"  onclick="display.value += '*'">       
+                </div>
+
+                <div class="row">
+                    <input type="button" value="tan(" onclick="display.value += 'tan('">      
+                    <input type="button" value="sqrt("  onclick="squareRoot()">     
+                    <input type="button" value="1" onclick="display.value += '1'">
+                    <input type="button" value="2" onclick="display.value += '2'">
+                    <input type="button" value="3" onclick="display.value += '3'">   
+                    <input type="button" value="-" onclick="display.value += '-'">          
+                </div>
+
+                <div class="row">
+                    <input type="button" value="E" onclick="e()">       
+                    <input type="button" value="^" onclick="power()">
+                    <input type="button" value="0"  onclick="display.value += '0'">
+                    <input type="button" value="."  onclick="display.value += '.'">
+                    <input id="ok" type="button" value="=" onclick="calculate()">
+                    <input type="button" value="+"  onclick="display.value += '+'">     
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.js"></script>
+       <script src="script.js"></script>
+</body>   
+</html>
