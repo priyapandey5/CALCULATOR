@@ -33,22 +33,22 @@ svg {
 }
 
 .text-copy:nth-child(2){
-	stroke: #cf1578;
+	stroke: #52062e;
 	animation-delay: -2s;
 }
 
 .text-copy:nth-child(3){
-	stroke: #0f0f65;
+	stroke: #33336c;
 	animation-delay: -3s;
 }
 
 .text-copy:nth-child(4){
-	stroke: #1cbe03;
+	stroke: #174710;
 	animation-delay: -4s;
 }
 
 .text-copy:nth-child(5){
-	stroke: #b20238;
+	stroke: #d84571;
 	animation-delay: -5s;
 }
 
