@@ -56,16 +56,15 @@ svg {
 	100% {stroke-dashoffset: -35%;}
 }
 
-.container 
-{   margin-left: 1.8em;
+.container {
+    margin-left: 1.8em;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 13px 13px 20px #d1d3d4,
               -13px -13px 20px #d1d3d4; 
 }
 
-.content 
-{
+.content {
     width: 100%;
     margin-top: 1.7em;
     display: flex;
@@ -74,8 +73,7 @@ svg {
     flex-direction: column;
 }
 
-.row input 
-{
+.row input {
     width: 60px;
     height: 30px;
     font-size: 16px;
@@ -87,15 +85,13 @@ svg {
     box-shadow: 5px 5px 8px #00000020;
 }
 
-.row input:hover 
-{
+.row input:hover {
     box-shadow:  inset 5px 5px 8px rgba(16, 16, 16, .1),
                  inset -5px -5px 8px #fff;
     background: #fff;
 }
 
-.screen #display 
-{
+.screen #display {
     margin-bottom: .5em;
     width: auto;
     height: 70px;
@@ -110,50 +106,41 @@ svg {
                 inset -8px -8px 8px #a4c9ee;
 }
 
-#ok 
-{
+#ok {
     background: #C84B31;
         color: #fff;
         box-shadow: inset 5px 5px 8px #91817e,
                     inset -5px -5px 8px #91817e;
 }
 
-#ok:hover 
-{
+#ok:hover {
     box-shadow: inset 5px 5px 8px #84483c,
                     inset -5px -5px 8px #84483c;
                 
 }
 
-#ac 
-{
+#ac {
     background: #9A0680;
     color: #fff;
 }
 
-#ac:hover 
-{
+#ac:hover {
     box-shadow: inset 5px 5px 8px #745c70,
                 inset -5px -5px 8px #745c70;
 }
 
-#space
-{
+#space{
     background: #ECB365;
     color: #fff;
 }
 
-#space:hover 
-{
+#space:hover {
     box-shadow: inset 5px 5px 8px #8f7f68,
     inset -5px -5px 8px #8f7f68;
                   
 }
 
-/*================= Heading Css =================*/
-h2
-
-{
+h2{
     font-size: 40px;
     position: relative;  
     bottom: 1em; 
@@ -172,8 +159,7 @@ h2
                     letter-spacing: 6px;
 }
 
-h2 span
-{
+h2 span{
 color: #33cc33;
 font-size: 45px;
 text-shadow: 1px 1px 1px #d1d9e6,
@@ -184,8 +170,7 @@ text-shadow: 1px 1px 1px #d1d9e6,
                 6px 6px 6px #d1d9e6 ;    
 }
 
-h2 .fa
-{
+h2 .fa{
     position: absolute; 
     top: 1.5em;
     color: #33ccff;
